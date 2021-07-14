@@ -1,0 +1,147 @@
+html{
+    
+    background-color: #D6EFFF;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(5, 116, 20);
+}
+#banner{
+    width: 100%;
+    background-image: url("Images/webBackground.jpg");
+    height: 110px;
+    background-position: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#bannerBottom{
+    position: fixed;
+    bottom: 0px;
+    
+    width: 100%;
+    background-image: url("Images/webBackground.jpg");
+    height: 30px;
+    background-position: center;
+    text-align: center;
+    
+}
+
+
+h1{
+    font-size: 70px;
+    color: #FE654F;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #FE654F;
+}
+
+.group
+{
+    
+    margin-left: 350px;
+    margin-right: 300px;
+    width:500px;
+    height:500px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 235px;
+    grid-row-gap: 20px;
+
+}
+.btn
+{
+    background-color: #FED18C;
+    color: #FE654F;
+    text-align: center;
+    border: 4px solid #FED99B;
+    border-radius: 14px;
+    padding: 40px;
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.btn:hover{
+    background-color: #FED99B;
+}
+
+.btnDiff
+{
+    background-color: #FED18C;
+    color: #FE654F;
+    text-align: center;
+    border: 4px solid #FED99B;
+    border-radius: 14px;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-left:550px;
+    
+}
+.btnDiff:hover{
+    background-color: #FED99B;
+}
+
+#refresh{
+    margin: 20px auto;
+    height: 30px;
+    display: none;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+#score{
+    text-align: center;
+    font-size: 30px;
+}
+
+#leftBanner { 
+    background-image: url("Images/webBackground.jpg");
+    position: fixed;
+    left: 0px;
+    float: left;
+    width: 50px; 
+    height: 1100px;
+    margin-left: -20px;
+}
+
+#rightBanner { 
+    background-image: url("Images/webBackground.jpg");
+    position: fixed;
+    right: 0px;
+    float: right; 
+    width: 50px;
+    height: 1100px;
+    margin-right: -20px;
+}
+#question{
+    font-size: 30px;
+}
+#answer{
+    display: none;
+    font-size: 25px;
+}
+#trueAnswer{
+    display: none;
+    font-size: 25px;
+}
+#home{
+    width: 140px;
+    height: 10px;
+    margin-top: -140px;
+    margin-left: 3 0px;
+    font-family: 'Permanent Marker', cursive;
+}
