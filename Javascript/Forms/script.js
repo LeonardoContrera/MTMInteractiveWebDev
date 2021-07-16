@@ -2,6 +2,7 @@ const fname = document.getElementById("fname");
 const lname = document.getElementById("lname");
 
 const myErrors = document.getElementById("myErrors");
+const names = document.getElementById("name");
 
 let error_msg = "";
 let no_errors = true;
