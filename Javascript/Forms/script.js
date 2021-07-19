@@ -30,6 +30,8 @@ const mySubmit = () => {
     validate();
     return no_errors;
 }
+names.innerHTML = `${fname.value}  ${lname.value}`;
+
 
 fname.addEventListener('input', validate)
 lname.addEventListener('input', validate)
