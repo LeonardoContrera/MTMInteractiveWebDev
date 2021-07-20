@@ -1,0 +1,9 @@
+{
+    "menu": [
+        ["Home", "/", ""],
+        ["PotatoLand", "/potato", ""],
+        ["Leo's Webpage", "/hello/leo", ""],
+        ["Bob's Webpage", "/hello/bob", ""],
+        ["Neumont", "https://www.neumont.edu", "_blank"]
+    ]
+}
